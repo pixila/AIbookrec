@@ -1,0 +1,1861 @@
+@RELATION book_recommendation
+
+@ATTRIBUTE genre {'Biography','Chick Lit','Childrens','Christian','Christian Fiction','Classics','Comics','Fantasy','Fiction','Graphic Novels','Historical Fiction','Historical Romance','History','Horror','Manga','Mystery','Nonfiction','Novels','Paranormal','Paranormal Romance','Philosophy','Picture Books','Poetry','Romance','Science Fiction','Short Stories','Thriller','Urban Fantasy','Vampires','Young Adult'}
+@ATTRIBUTE author {'Agatha Christie','Bella Forrest (Goodreads Author)','Bernard Cornwell (Goodreads Author)','Bonnie Bryant','Brandon Sanderson (Goodreads Author)','Carolyn Keene','Charlaine Harris (Goodreads Author)','Christine Feehan (Goodreads Author)','Christopher Pike','Cynthia Harrod-Eagles','Danielle Steel','Darren Shan (Goodreads Author)','David Baldacci (Goodreads Author)','Dean Koontz (Goodreads Author)','Enid Blyton','Erin Hunter','Gena Showalter (Goodreads Author)','Isaac Asimov','J.D. Robb (Goodreads Author)','J.R. Ward (Goodreads Author)','James Hadley Chase','James Patterson (Goodreads Author)','Janet Evanovich (Goodreads Author)','Jennifer L. Armentrout (Goodreads Author)','Jim Butcher (Goodreads Author)','Karen Kingsbury (Goodreads Author)','Kristen Ashley (Goodreads Author)','L.J. Smith (Goodreads Author)','Laurell K. Hamilton (Goodreads Author)','Linda Howard','Lisa Kleypas (Goodreads Author)','Lynsay Sands (Goodreads Author)','Mark Crilley','Meg Cabot (Goodreads Author)','Mercedes Lackey','Nora Roberts (Goodreads Author)','Orson Scott Card','P.G. Wodehouse','Piers Anthony','R.L. Stine (Goodreads Author)','Richelle Mead (Goodreads Author)','Rick Riordan (Goodreads Author)','Sherrilyn Kenyon (Goodreads Author)','Stephen King (Goodreads Author)','Tamora Pierce (Goodreads Author)','Terry Brooks (Goodreads Author)','Terry Pratchett','Walt Disney Company','Will Durant Ariel Durant زكي نجيب محمود (Translator)','مصطفى محمود'}
+@ATTRIBUTE recommendation {yes,no}
+
+@DATA
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Romance','J.R. Ward (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fiction','Stephen King (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Romance','J.R. Ward (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Romance','J.R. Ward (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Paranormal Romance','J.R. Ward (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Nonfiction','Stephen King (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Romance','James Patterson (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Fantasy','Terry Brooks (Goodreads Author)',no
+'Horror','Stephen King (Goodreads Author)',yes
+'Vampires','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',no
+'Mystery','James Patterson (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Paranormal','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Horror','Stephen King (Goodreads Author)',no
+'Vampires','L.J. Smith (Goodreads Author)',no
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Terry Pratchett',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Terry Pratchett',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Vampires','L.J. Smith (Goodreads Author)',no
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Paranormal','Sherrilyn Kenyon (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Christopher Pike',no
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Vampires','L.J. Smith (Goodreads Author)',no
+'Young Adult','Sherrilyn Kenyon (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Mystery','Rick Riordan (Goodreads Author)',no
+'Science Fiction','Isaac Asimov',yes
+'Fiction','P.G. Wodehouse',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Mercedes Lackey',yes
+'Young Adult','James Patterson (Goodreads Author)',no
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fiction','Stephen King (Goodreads Author)',yes
+'Paranormal Romance','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Vampires','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Terry Pratchett',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Romance','Lisa Kleypas (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Vampires','Charlaine Harris (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Paranormal','Jennifer L. Armentrout (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Erin Hunter',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Science Fiction','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Childrens','Enid Blyton',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Vampires','Lynsay Sands (Goodreads Author)',no
+'Fantasy','Orson Scott Card',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Erin Hunter',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Vampires','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Lisa Kleypas (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Kristen Ashley (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Linda Howard',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Paranormal','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',no
+'Mystery','Agatha Christie',no
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Enid Blyton',yes
+'Romance','Linda Howard',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Young Adult','Gena Showalter (Goodreads Author)',no
+'Science Fiction','Isaac Asimov',yes
+'Fiction','Stephen King (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',no
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Vampires','Christopher Pike',yes
+'Romance','Lisa Kleypas (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Horror','Stephen King (Goodreads Author)',no
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fiction','Stephen King (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',no
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',no
+'Horror','Christopher Pike',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',no
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Thriller','Dean Koontz (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Science Fiction','Isaac Asimov',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Vampires','Lynsay Sands (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Young Adult','Sherrilyn Kenyon (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fiction','James Patterson (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Vampires','Christopher Pike',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Paranormal','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Novels','مصطفى محمود',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Romance','Lynsay Sands (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Romance','Linda Howard',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fiction','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Paranormal','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian','Karen Kingsbury (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fantasy','David Baldacci (Goodreads Author)',no
+'Young Adult','Christopher Pike',yes
+'Thriller','Dean Koontz (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Terry Pratchett',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Isaac Asimov',yes
+'Young Adult','Sherrilyn Kenyon (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',no
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Fantasy','Richelle Mead (Goodreads Author)',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',no
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Childrens','Enid Blyton',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Enid Blyton',yes
+'Romance','Danielle Steel',yes
+'Fantasy','Mercedes Lackey',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Fantasy','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Philosophy','مصطفى محمود',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','David Baldacci (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Philosophy','مصطفى محمود',no
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Nora Roberts (Goodreads Author)',yes
+'Nonfiction','مصطفى محمود',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Paranormal','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',no
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Vampires','Bella Forrest (Goodreads Author)',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','James Patterson (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Mercedes Lackey',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fiction','P.G. Wodehouse',yes
+'Young Adult','Christopher Pike',no
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Romance','Linda Howard',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Richelle Mead (Goodreads Author)',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Linda Howard',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fiction','James Patterson (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Fiction','P.G. Wodehouse',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Science Fiction','Terry Pratchett',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',no
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',no
+'Historical Fiction','Orson Scott Card',yes
+'Young Adult','Christopher Pike',yes
+'Fantasy','Terry Pratchett',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Paranormal','Kristen Ashley (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Young Adult','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Orson Scott Card',no
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',no
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Vampires','Christopher Pike',yes
+'Mystery','David Baldacci (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Fantasy','Stephen King (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Fiction','P.G. Wodehouse',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Nonfiction','مصطفى محمود',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Gena Showalter (Goodreads Author)',no
+'Romance','Christine Feehan (Goodreads Author)',yes
+'Novels','مصطفى محمود',no
+'Horror','Darren Shan (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Vampires','L.J. Smith (Goodreads Author)',no
+'Paranormal','Jennifer L. Armentrout (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Science Fiction','Isaac Asimov',yes
+'Science Fiction','Isaac Asimov',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Romance','Danielle Steel',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Agatha Christie',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Agatha Christie',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Philosophy','مصطفى محمود',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Mercedes Lackey',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Fantasy','Piers Anthony',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',no
+'Mystery','Agatha Christie',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Mercedes Lackey',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Romance','Danielle Steel',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Romance','Linda Howard',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',no
+'Fiction','Dean Koontz (Goodreads Author)',no
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Science Fiction','Orson Scott Card',no
+'Romance','J.R. Ward (Goodreads Author)',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Piers Anthony',yes
+'Mystery','Janet Evanovich (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Fantasy','Terry Pratchett',yes
+'Fiction','P.G. Wodehouse',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Vampires','Richelle Mead (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',yes
+'Mystery','Agatha Christie',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Thriller','Dean Koontz (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Mystery','Agatha Christie',no
+'Mystery','Agatha Christie',yes
+'Fantasy','Piers Anthony',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Childrens','Enid Blyton',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Agatha Christie',yes
+'Paranormal','Sherrilyn Kenyon (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',no
+'Science Fiction','Orson Scott Card',no
+'Horror','Dean Koontz (Goodreads Author)',no
+'Vampires','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Childrens','Enid Blyton',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Young Adult','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Romance','Danielle Steel',no
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Agatha Christie',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Vampires','Christopher Pike',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Agatha Christie',yes
+'Vampires','Lynsay Sands (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Urban Fantasy','Richelle Mead (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Paranormal Romance','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Kristen Ashley (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Piers Anthony',yes
+'Childrens','Enid Blyton',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Romance','Danielle Steel',no
+'Paranormal','Laurell K. Hamilton (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Science Fiction','Piers Anthony',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Romance','Linda Howard',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Mystery','Carolyn Keene',yes
+'Mystery','Carolyn Keene',yes
+'Fantasy','Mercedes Lackey',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Fantasy','Terry Brooks (Goodreads Author)',no
+'Fantasy','Erin Hunter',yes
+'Childrens','Enid Blyton',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Nonfiction','Dean Koontz (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fiction','David Baldacci (Goodreads Author)',no
+'Fiction','P.G. Wodehouse',yes
+'Childrens','Walt Disney Company',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Romance','Danielle Steel',yes
+'Science Fiction','Orson Scott Card',yes
+'Paranormal','Lynsay Sands (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Young Adult','Christopher Pike',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Christopher Pike',no
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Short Stories','مصطفى محمود',no
+'Romance','Linda Howard',no
+'Nonfiction','مصطفى محمود',no
+'Horror','Dean Koontz (Goodreads Author)',no
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Orson Scott Card',yes
+'Young Adult','Christopher Pike',yes
+'Fiction','P.G. Wodehouse',yes
+'Fiction','David Baldacci (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Nonfiction','مصطفى محمود',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fiction','P.G. Wodehouse',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Science Fiction','Orson Scott Card',no
+'Horror','Dean Koontz (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Romance','Danielle Steel',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',no
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Mystery','David Baldacci (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Erin Hunter',yes
+'Fantasy','Piers Anthony',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Romance','Danielle Steel',yes
+'Mystery','Agatha Christie',yes
+'Romance','Christine Feehan (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Fiction','P.G. Wodehouse',yes
+'Mystery','Christopher Pike',yes
+'Fiction','Danielle Steel',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'Horror','Stephen King (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Romance','Danielle Steel',yes
+'Science Fiction','Isaac Asimov',yes
+'Childrens','Enid Blyton',yes
+'Romance','Christine Feehan (Goodreads Author)',yes
+'Fantasy','Sherrilyn Kenyon (Goodreads Author)',yes
+'Romance','Danielle Steel',no
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Science Fiction','Orson Scott Card',no
+'Mystery','Charlaine Harris (Goodreads Author)',no
+'Fantasy','Piers Anthony',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Mystery','Enid Blyton',yes
+'Mystery','Carolyn Keene',yes
+'Horror','Christopher Pike',no
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Fantasy','Darren Shan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Romance','Kristen Ashley (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Romance','Danielle Steel',yes
+'Mystery','Agatha Christie',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Agatha Christie',yes
+'Novels','مصطفى محمود',no
+'Mystery','Enid Blyton',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Horror','Christopher Pike',no
+'Childrens','Walt Disney Company',yes
+'Romance','Danielle Steel',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Fiction','مصطفى محمود',no
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Mystery','James Hadley Chase',yes
+'Romance','Walt Disney Company',yes
+'Fiction','P.G. Wodehouse',yes
+'Nonfiction','مصطفى محمود',no
+'Fantasy','Piers Anthony',yes
+'Fantasy','Piers Anthony',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Science Fiction','Piers Anthony',no
+'Fiction','P.G. Wodehouse',yes
+'Mystery','Agatha Christie',yes
+'Science Fiction','Isaac Asimov',yes
+'Childrens','Walt Disney Company',yes
+'Philosophy','مصطفى محمود',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Mystery','Agatha Christie',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Vampires','L.J. Smith (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',no
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Danielle Steel',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Fantasy','Piers Anthony',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Isaac Asimov',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Brandon Sanderson (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Fantasy','Piers Anthony',yes
+'Mystery','Agatha Christie',yes
+'Mystery','Enid Blyton',yes
+'Mystery','Agatha Christie',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Danielle Steel',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Enid Blyton',yes
+'Romance','Danielle Steel',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fiction','Christopher Pike',no
+'Romance','Linda Howard',no
+'Nonfiction','مصطفى محمود',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Young Adult','Meg Cabot (Goodreads Author)',yes
+'Science Fiction','Piers Anthony',no
+'Paranormal Romance','Sherrilyn Kenyon (Goodreads Author)',yes
+'Fantasy','Charlaine Harris (Goodreads Author)',no
+'Romance','Meg Cabot (Goodreads Author)',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'Childrens','Enid Blyton',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',no
+'Fantasy','Bella Forrest (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',no
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Romance','Danielle Steel',no
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Mystery','Agatha Christie',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Mercedes Lackey',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',no
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Mystery','Carolyn Keene',no
+'Vampires','R.L. Stine (Goodreads Author)',no
+'Romance','Danielle Steel',no
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Romance','Danielle Steel',no
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Mystery','Isaac Asimov',yes
+'Mystery','Isaac Asimov',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Young Adult','R.L. Stine (Goodreads Author)',no
+'Vampires','Charlaine Harris (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Science Fiction','Isaac Asimov',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Childrens','Walt Disney Company',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Thriller','David Baldacci (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Young Adult','Christopher Pike',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Piers Anthony',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',no
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Philosophy','مصطفى محمود',yes
+'Science Fiction','Orson Scott Card',yes
+'Romance','Meg Cabot (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',no
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Nonfiction','مصطفى محمود',no
+'Fantasy','Erin Hunter',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Terry Pratchett',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'Fantasy','Mercedes Lackey',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','Christopher Pike',no
+'Science Fiction','Orson Scott Card',yes
+'Science Fiction','Piers Anthony',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Erin Hunter',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Childrens','Enid Blyton',yes
+'Young Adult','Christopher Pike',no
+'Fantasy','Piers Anthony',yes
+'Fiction','P.G. Wodehouse',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Childrens','Enid Blyton',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Piers Anthony',yes
+'Fantasy','Rick Riordan (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Mystery','David Baldacci (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Carolyn Keene',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Romance','Danielle Steel',no
+'Romance','Danielle Steel',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Linda Howard',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Fantasy','Terry Pratchett',yes
+'Mystery','Carolyn Keene',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fantasy','Orson Scott Card',yes
+'Romance','Linda Howard',yes
+'Mystery','Agatha Christie',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Childrens','R.L. Stine (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Mystery','Carolyn Keene',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Mystery','Agatha Christie',yes
+'Horror','Dean Koontz (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Mystery','Janet Evanovich (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Mystery','Agatha Christie',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Carolyn Keene',no
+'Childrens','Walt Disney Company',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Mystery','Agatha Christie',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fantasy','Mercedes Lackey',yes
+'Horror','R.L. Stine (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Childrens','Walt Disney Company',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Romance','Danielle Steel',yes
+'Science Fiction','Orson Scott Card',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Romance','Danielle Steel',no
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Vampires','Richelle Mead (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Young Adult','L.J. Smith (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',yes
+'Romance','Janet Evanovich (Goodreads Author)',no
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Young Adult','Jennifer L. Armentrout (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Young Adult','R.L. Stine (Goodreads Author)',no
+'Romance','Janet Evanovich (Goodreads Author)',no
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Mystery','James Patterson (Goodreads Author)',yes
+'Romance','Janet Evanovich (Goodreads Author)',no
+'Mystery','Agatha Christie',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Terry Pratchett',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Urban Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Romance','Janet Evanovich (Goodreads Author)',no
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Richelle Mead (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Young Adult','Meg Cabot (Goodreads Author)',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Childrens','Walt Disney Company',yes
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Historical Fiction','Cynthia Harrod-Eagles',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Picture Books','Walt Disney Company',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Graphic Novels','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Christine Feehan (Goodreads Author)',yes
+'Urban Fantasy','Jim Butcher (Goodreads Author)',yes
+'Romance','J.D. Robb (Goodreads Author)',yes
+'Young Adult','R.L. Stine (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Mystery','James Hadley Chase',no
+'Romance','Meg Cabot (Goodreads Author)',yes
+'Graphic Novels','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Romance','J.D. Robb (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Romance','Lisa Kleypas (Goodreads Author)',yes
+'Graphic Novels','Mark Crilley',yes
+'Young Adult','Bella Forrest (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Tamora Pierce (Goodreads Author)',yes
+'Fiction','James Hadley Chase',no
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Paranormal Romance','Gena Showalter (Goodreads Author)',no
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Mystery','James Hadley Chase',no
+'Fantasy','Bella Forrest (Goodreads Author)',yes
+'Urban Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Paranormal Romance','Christine Feehan (Goodreads Author)',yes
+'Picture Books','Walt Disney Company',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Romance','Danielle Steel',no
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Fantasy','Brandon Sanderson (Goodreads Author)',yes
+'Mystery','James Hadley Chase',yes
+'Mystery','Stephen King (Goodreads Author)',no
+'Graphic Novels','Mark Crilley',yes
+'Fantasy','Bella Forrest (Goodreads Author)',yes
+'Fantasy','David Baldacci (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Romance','J.D. Robb (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Thriller','James Hadley Chase',no
+'Fantasy','Erin Hunter',yes
+'Romance','Jennifer L. Armentrout (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','David Baldacci (Goodreads Author)',yes
+'Vampires','Laurell K. Hamilton (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',no
+'Fantasy','Jim Butcher (Goodreads Author)',yes
+'Mystery','James Hadley Chase',no
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','David Baldacci (Goodreads Author)',yes
+'Vampires','Laurell K. Hamilton (Goodreads Author)',yes
+'History','Will Durant Ariel Durant زكي نجيب محمود (Translator)',yes
+'Urban Fantasy','Jim Butcher (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Thriller','James Hadley Chase',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Carolyn Keene',yes
+'Picture Books','Walt Disney Company',no
+'Fantasy','Laurell K. Hamilton (Goodreads Author)',yes
+'Thriller','James Hadley Chase',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Jennifer L. Armentrout (Goodreads Author)',yes
+'Science Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Young Adult','Christopher Pike',no
+'Fantasy','Mercedes Lackey',yes
+'Fiction','James Hadley Chase',no
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Thriller','James Hadley Chase',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Mystery','Rick Riordan (Goodreads Author)',no
+'Fantasy','Mercedes Lackey',yes
+'Childrens','Walt Disney Company',yes
+'Mystery','James Hadley Chase',yes
+'Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Mystery','Rick Riordan (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Carolyn Keene',yes
+'Mystery','James Hadley Chase',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Mercedes Lackey',yes
+'Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Childrens','Enid Blyton',yes
+'Novels','James Hadley Chase',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fiction','P.G. Wodehouse',yes
+'Fantasy','Mercedes Lackey',yes
+'Mystery','Carolyn Keene',yes
+'Fiction','James Hadley Chase',yes
+'Science Fiction','Mark Crilley',yes
+'Short Stories','Agatha Christie',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Carolyn Keene',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Thriller','James Hadley Chase',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Paranormal','Christine Feehan (Goodreads Author)',no
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Paranormal','Christine Feehan (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Carolyn Keene',yes
+'Fiction','James Hadley Chase',yes
+'Young Adult','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Christine Feehan (Goodreads Author)',yes
+'Romance','J.R. Ward (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fiction','James Hadley Chase',no
+'Childrens','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Horror','R.L. Stine (Goodreads Author)',no
+'Paranormal','J.R. Ward (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Romance','Danielle Steel',no
+'Graphic Novels','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',no
+'Horror','R.L. Stine (Goodreads Author)',no
+'Mystery','James Patterson (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Childrens','Walt Disney Company',no
+'Mystery','Carolyn Keene',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Agatha Christie',no
+'Comics','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Meg Cabot (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Comics','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Historical Fiction','Orson Scott Card',yes
+'Mystery','Carolyn Keene',yes
+'Childrens','Enid Blyton',yes
+'Chick Lit','Meg Cabot (Goodreads Author)',yes
+'Comics','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Graphic Novels','Mark Crilley',no
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Young Adult','James Patterson (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Novels','James Hadley Chase',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Science Fiction','Isaac Asimov',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Mystery','Agatha Christie',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Horror','Darren Shan (Goodreads Author)',yes
+'Fantasy','Terry Brooks (Goodreads Author)',yes
+'Fantasy','Mercedes Lackey',yes
+'Fantasy','Terry Pratchett',no
+'Mystery','Janet Evanovich (Goodreads Author)',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Fiction','James Hadley Chase',no
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Graphic Novels','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Fiction','James Hadley Chase',yes
+'Mystery','Agatha Christie',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Christian Fiction','Karen Kingsbury (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Mystery','Carolyn Keene',yes
+'Thriller','James Hadley Chase',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Mystery','Carolyn Keene',yes
+'Thriller','James Hadley Chase',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Mystery','Carolyn Keene',yes
+'Fiction','James Hadley Chase',no
+'Mystery','Agatha Christie',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Mystery','Carolyn Keene',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Thriller','James Hadley Chase',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Childrens','Enid Blyton',yes
+'Childrens','Walt Disney Company',no
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Manga','Mark Crilley',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Mystery','Carolyn Keene',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Young Adult','Christopher Pike',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Fantasy','Kristen Ashley (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Mystery','J.D. Robb (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',no
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Vampires','Kristen Ashley (Goodreads Author)',yes
+'Romance','Linda Howard',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Horror','Christopher Pike',yes
+'Historical Romance','Lisa Kleypas (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Romance','Danielle Steel',yes
+'Young Adult','Christopher Pike',no
+'Romance','Lisa Kleypas (Goodreads Author)',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Romance','Lynsay Sands (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Vampires','Bella Forrest (Goodreads Author)',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Horror','Stephen King (Goodreads Author)',yes
+'Childrens','Walt Disney Company',yes
+'Fiction','Bella Forrest (Goodreads Author)',yes
+'Romance','Nora Roberts (Goodreads Author)',yes
+'Young Adult','Gena Showalter (Goodreads Author)',yes
+'Fantasy','Orson Scott Card',no
+'Mystery','Agatha Christie',yes
+'Fantasy','Terry Pratchett',yes
+'Fantasy','Piers Anthony',yes
+'Fantasy','Piers Anthony',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Historical Fiction','Bernard Cornwell (Goodreads Author)',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Piers Anthony',yes
+'Childrens','Enid Blyton',yes
+'Mystery','Charlaine Harris (Goodreads Author)',yes
+'Fantasy','Erin Hunter',yes
+'Science Fiction','Orson Scott Card',yes
+'Mystery','Carolyn Keene',yes
+'Fantasy','Piers Anthony',yes
+'Fantasy','Erin Hunter',yes
+'Fantasy','Piers Anthony',yes
+'Fantasy','Piers Anthony',yes
